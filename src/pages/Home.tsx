@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useLocation } from "react-router";
 import locationSlice from "../redux/locationSlice";
+import SpeedMeter from "../Components/SpeedMeter";
 
 const Home = () => {
   const [speed, setSpeed] = useState<number | null>(null);
@@ -64,6 +65,7 @@ const Home = () => {
       ) : (
         <p>Waiting for location data...</p>
       )}
+      <SpeedMeter />
     </div>
   )
 }
