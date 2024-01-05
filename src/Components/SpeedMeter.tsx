@@ -10,7 +10,7 @@ import Speedometer, {
 
 const SpeedMeter = () => {
     return (
-        <div className='w-full flex flex-col items-center justify-center gap-8'>
+        <div className='w-full h-full flex flex-col items-center justify-center gap-8 pt-16 '>
 
             <Speedometer
                 value={120}

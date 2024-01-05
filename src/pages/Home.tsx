@@ -59,7 +59,7 @@ const Home = () => {
   // }
 
   return (
-    <div className={`w-full h-screen flex flex-col items-center justify-center gap-3 sm:gap-4 bg-slate-200 dark:bg-slate-900 py-4 px-2 sm:px-4`}>
+    <div className={`w-full h-full flex flex-col items-center justify-center gap-3 sm:gap-4 bg-slate-200 dark:bg-slate-900 py-4 px-2 sm:px-4`}>
       {speed !== null ? (
         <p>Current Speed: {speed} m/s</p>
       ) : (
